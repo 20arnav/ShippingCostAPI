@@ -1,2 +1,2 @@
 # ShippingCostAPI
-Deployable code on Vercel to calculate benchmark shipping costs
+Deployable code on Vercel to calculate benchmark shipping cost
