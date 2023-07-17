@@ -1,0 +1,6 @@
+Ground	-> 0
+3 Day Select -> 1	
+2nd Day Air	 -> 2
+2nd Day Air A.M. -> 3	
+Next Day Air Saver	-> 4
+Next Day Air -> 5
