@@ -155,13 +155,9 @@ class T1(models.Model):
 
 
 class T2(models.Model):
-    dest_zip = models.IntegerField(db_column='Dest. ZIP', blank=True, null = True)
-    ground = models.IntegerField(db_column='Ground', blank=True, null = True)
-    three_day_select = models.IntegerField(db_column='3 Day Select', blank=True, null = True)
-    two_day_air = models.IntegerField(db_column='2nd Day Air', blank=True, null = True)
-    two_day_air_am = models.IntegerField(db_column='2nd Day Air A.M.', blank=True, null = True)
-    next_day_air_saver = models.IntegerField(db_column='Next Day Air Saver', blank=True, null = True)
-    two_day_air_am = models.IntegerField(db_column='Next Day Air', blank=True, null = True)
+    dest_zip = models.IntegerField(db_column='Dest_ZIP', blank=True, null = True)
+    mode = models.IntegerField(db_column='Mode', blank=True, null = True)
+    zone = models.IntegerField(db_column='Zone', blank=True, null = True)
 
     class Meta:
         managed = False
